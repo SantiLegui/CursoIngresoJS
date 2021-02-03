@@ -12,10 +12,10 @@ function SacarResto()
 	
 /*Se les asigna un valor a las variables y se los 
 transforma en numeros, con el parseInt*/
-	 div = document.getElementById("txtIdNumeroDividendo").value;
-	  		divs = document.getElementById("txtIdNumeroDivisor").value;
+	div = document.getElementById("txtIdNumeroDividendo").value;
+	divs = document.getElementById("txtIdNumeroDivisor").value;
     div = parseInt(div);
-	  		divs = parseInt(divs);
+	divs = parseInt(divs);
  
 //Se calcula el resto 	
 	resto = (div % divs);
