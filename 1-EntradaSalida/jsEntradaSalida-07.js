@@ -2,66 +2,50 @@
 Debemos lograr tomar Los numeros por ID ,
 transformarlos a enteros (parseInt),realizar la operación correcta y 
 mostrar el resulto por medio de "ALERT"
-ej.: "la Resta es 750"*/ 
-function sumar()
-{	
-//Se declaran las variables
-	let n1 = document.getElementById("numero1").value;
-	let n2 = document.getElementById("numero2").value;
-	let resultado;
-//Se los denomina numeros con parseInt
-	n1 = parseInt (n1);
-    n2 = parseInt (n2);
-  
-//Se calcula el resultado final
+ej.: "la Resta es 750"*/
+
+//Se denominan variables
+let n1;
+let n2;
+let resultado;
+
+function sumar() {
+	//El valor de la variables, se los denomina numeros con parseInt
+	n1 = parseInt(document.getElementById("numero1").value);
+	n2 = parseInt(document.getElementById("numero2").value);
+	//Se calcula el resultado final
 	resultado = n1 + n2
-	
-//Se muestra el resultado final en la pantalla
-	alert("El resultado de la suma es" + " " + resultado);	
+	//Se muestra el resultado final en la pantalla
+	alert("El resultado de la suma es" + " " + resultado);
 }
 
-function restar()
-{
-//Se declaran las variables
-	let n1 = document.getElementById("numero1").value;
-	let n2 = document.getElementById("numero2").value;
-	let resultado;
-//Se los denomina numeros con parseInt
-	n1 = parseInt (n1);
-	n2 = parseInt (n2);
- //Se calcula el resultado final
+function restar() {
+	//El valor de la variables, se los denomina numeros con parseInt
+	n1 = parseInt(document.getElementById("numero1").value);
+	n2 = parseInt(document.getElementById("numero2").value);
+	//Se calcula el resultado final
 	resultado = n1 - n2
-//Se muestra el resultado final en la pantalla
+	//Se muestra el resultado final en la pantalla
 	alert("El resultado de la resta es" + " " + resultado);
 }
 
-function multiplicar()
-{ 
-//Se declaran las variables
-	let n1 = document.getElementById("numero1").value;
-	let n2 = document.getElementById("numero2").value;
-	let resultado;
-//Se los denomina numeros con parseInt
-	n1 = parseInt (n1);
-	n2 = parseInt (n2);
-//Se calcula el resultado final  	
+function multiplicar() {
+	//El valor de la variables, se los denomina numeros con parseInt
+	n1 = parseInt(document.getElementById("numero1").value);
+	n2 = parseInt(document.getElementById("numero2").value);
+	//Se calcula el resultado final  	
 	resultado = n1 * n2
-//Se muestra el resultado final en la pantalla
+	//Se muestra el resultado final en la pantalla
 	alert("El resultado de la multiplicacion es" + " " + resultado);
 }
 
-function dividir()
-{
-//Se declaran las variables
-	let n1 = document.getElementById("numero1").value;
-	let n2 = document.getElementById("numero2").value;
-	let resultado;
-//Se los denomina numeros con parseInt
-	n1 = parseInt (n1);
-	n2 = parseInt (n2);
-//Se calcula el resultado final
+function dividir() {
+	//El valor de la variables, se los denomina numeros con parseInt
+	n1 = parseInt(document.getElementById("numero1").value);
+	n2 = parseInt(document.getElementById("numero2").value);
+	//Se calcula el resultado final
 	resultado = n1 / n2
-//Se muestra el resultado final en la pantalla
+	//Se muestra el resultado final en la pantalla
 	alert("El resultado de la division es" + " " + resultado);
 }
 
